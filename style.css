@@ -254,6 +254,7 @@ input{
     color:#979c9f;
     transition:0.6s;
     display:block;
+    font-family:"Courier New";
 }
 
 .sidenav a:hover{
