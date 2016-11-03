@@ -282,8 +282,9 @@ input{
 }
 .blueberry .slides li {
 	position: absolute;
-	top: 50px;
-	left: 50;
+	top: 100px;
+	display:block; 
+  margin:auto;
 	overflow: hidden;
 }
 .blueberry .slides li img {
