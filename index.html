@@ -8,6 +8,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="./jQery.js"></script>
   <script src="script-3.js"></script>     
+  <script>
+  $(window).load(function() {
+    $('.blueberry').blueberry();
+    });
+  </script>
 </head>
 <body>
   <div id="mySidenav" class="sidenav">
@@ -26,16 +31,16 @@
   <h1 id="tt"><p>Exchange</p></h1>
   <img id="search" src="http://www.century21.com.tw/mobile/images/menu/menu_search_page.png">
   <input id="search-box" type="text" name="search-box" />
-                          
+ 
+ <div class="blueberry">
+      <ul class="slides">
+        <li><img src="http://upload.wikimedia.org/wikipedia/commons/b/ba/Flower_jtca001.jpg" /></li>
+        <li><img src="http://marktyrrell.com/labs/blueberry/img/slide2.jpg" /></li>
+        <li><img src="http://marktyrrell.com/labs/blueberry/img/slide3.jpg" /></li>
+        <li><img src="http://marktyrrell.com/labs/blueberry/img/slide4.jpg" /></li>
+      </ul>
+ </div> 
+
 </body>
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "200px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                }
-</script>
 </html>
