@@ -274,6 +274,11 @@ input{
   .sidenav a {font-size: 18px;}
 }
 
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
 .blueberry { margin: 0 auto; }
 .blueberry .slides {
 	display: block;
