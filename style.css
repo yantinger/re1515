@@ -257,7 +257,7 @@ input{
     font-family:sans-serif;
 }
 
-.sidenav a:hover{
+.sidenav a:hover, .offcanvas a:focus{
     color:gray;
 }
 
