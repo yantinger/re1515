@@ -25,17 +25,34 @@
 <br><br><br><br><br><br>
 <div class="row">
   <div class="col-xs-2">
-  123
+  排版用欄位
   </div>
   <div class="col-xs-7 frame">
     <form>
-      <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
-      <button type="submit" class="btn btn-primary">Submit</button>
-
+      <div class="form-group row">
+        <label  class="col-xs-2 col-form-label">商品名稱</label><br>
+        <div class="col-xs-10">
+          <input class="form-control" type="text" placeholder="請輸入商品名稱" id="ItemName">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-xs-2 col-form-label" >商品類別</label><br>
+        <div class="col-xs-10">
+          <select class="form-control" name="ItemCategory">
+            <option value="necessities">日用品</option>
+            <option value="foods">食物</option>
+            <option value="books">書籍或雜誌</option>
+            <option value="others">其他</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label  class="col-xs-2 col-form-label">商品圖片連結</label><br>
+      </div>
     </form>
   </div>
   <div class="col-xs-3">
-    爽放廣告的地方
+    爽放廣告的地方!讚
   </div>
 </div>
 </html>
