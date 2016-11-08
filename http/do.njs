@@ -3,9 +3,13 @@
 
 var querystring = require('id');
 var param = querystring.parse(process.env.QUERY_STRING);
-
+var name=require('./name.json');
 /* return header to browser */
 console.log('Content-type: text/html; charset=utf-8\n');
+
+if(name[param.id]==undefined){
+    console.log('<h1>who are you?<h1>');
+}
 
 /* return normal HTML content */
 console.log('<h1>Hello,'+' your must be '+param.name+'</h1>'); 
