@@ -12,4 +12,4 @@ if(name[param.id]==undefined){
 }
 
 /* return normal HTML content */
-console.log('<h1>Hello,'+' your must be '+param.name+'</h1>'); 
+console.log('<h1>Hello,'+' your must be '+param.id+'</h1>'); 
