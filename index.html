@@ -9,12 +9,9 @@
   <script src="js/jQery.js"></script>
   <script src="js/script-3.js"></script>     
   <script>
-  $(window).load(function() {
-    $('.blueberry').blueberry();
-    });
-    
     // 當網頁載入完
     $(window).load(function(){
+      $('.blueberry').blueberry();
       var $win = $(window),
           $ad = $('#abgne_float_ad').css('opacity', 0).show(),	// 讓廣告區塊變透明且顯示出來
           _width = $ad.width(),
