@@ -1,3 +1,11 @@
+#abgne_float_ad {
+  display: none;
+  position: absolute;
+}
+#abgne_float_ad img {
+  border: none;
+}
+
 body {
   margin:0;
   font-family: "Open Sans", sans-serif;
