@@ -1,3 +1,10 @@
+#abgne_float_ad {
+  display: none;
+  position: absolute;
+}
+#abgne_float_ad img {
+  border: none;
+}
 
 body {
   cursor:url('https://raw.githubusercontent.com/hbd1019/1019/master/1476854874114..cur'),url('https://raw.githubusercontent.com/hbd1019/1019/master/2016-07-21_01-26-27.ico'),auto;
